@@ -1,0 +1,20 @@
+{
+  "name": "miniprogram-template",
+  "version": "0.0.0",
+  "description": "基于 Tdesign 微信小程序原生语言模板",
+  "keywords": [
+    "微信小程序",
+    "TDesign",
+    "Skyline"
+  ],
+  "author": "CoderZ <1476712061@qq.com>",
+  "license": "MIT",
+  "scripts": {},
+  "packageManager": "pnpm@10.22.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^4.1.0"
+  }
+}

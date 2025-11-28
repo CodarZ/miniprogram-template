@@ -1,0 +1,42 @@
+{
+  "entryPagePath": "pages/home/index",
+  "pages": ["pages/home/index"],
+  "subPackages": [],
+  "darkmode": false,
+  "themeLocation": "theme.json",
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarTitleText": "Miniprogram Template",
+    "navigationStyle": "custom",
+    "backgroundColor": "@bgColor",
+    "backgroundColorTop": "@bgColor",
+    "navigationBarTextStyle": "@style",
+    "backgroundColorBottom": "@bgColor",
+    "navigationBarBackgroundColor": "@bgColor"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {},
+  "useExtendedLib": {
+    "weui": true
+  },
+  "resolveAlias": {
+    "@/*": "/*"
+  },
+  "workers": {
+    "path": "workers",
+    "isSubpackage": false
+  },
+  "renderer": "skyline",
+  "componentFramework": "glass-easel",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "enableScrollViewAutoSize": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.8.9",
+      "sdkVersionEnd": "255.255.255"
+    }
+  }
+}

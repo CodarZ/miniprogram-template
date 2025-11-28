@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    /* 语言和环境 */
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+
+    /* 模块 */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowJs": true,
+
+    /* 互操作性约束 */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "forceConsistentCasingInFileNames": true,
+
+    /* 类型检查 */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+
+    /* 路径解析 */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* 类型定义 */
+    "types": ["miniprogram-api-typings"],
+    "typeRoots": ["./typings", "./node_modules"],
+
+    /* 编译选项 */
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "declaration": false
+  },
+  "include": ["src/**/*.ts", "typings/**/*.d.ts"],
+  "exclude": ["node_modules", "miniprogram_npm", "dist", "*.discard"]
+}
